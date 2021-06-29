@@ -47,8 +47,8 @@ class FilmItem extends React.Component {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-12">
-                    <div onClick={this.handleClickFavorite} className={filmFavori ? "filmFavori" : "pasFavori"}>
-                    </div>
+                    <button onClick={this.handleClickFavorite} className= {filmFavori ? "filmFavori" : "pasFavori"}>
+                    </button>
                   </div>
                 </div>
               </div>

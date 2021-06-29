@@ -76,3 +76,7 @@ button:hover {
   width: 200px;
 }
 
+button{
+  border: none;
+  
+}
